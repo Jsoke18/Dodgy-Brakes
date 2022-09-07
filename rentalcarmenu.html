@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="rentalclients2.js"></script> 
+    <link rel="stylesheet" href="rentmenu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+	<!-- <form onsubmit="math2(this.value); return false"> -->
+<form>
+        
+        <div class="grid-container">
+       
+        <div class="item1"><h2>Compact Car</h2>
+            <p>$15/Day</p><img src="compact.jpg" alt="wag">
+
+            <label class="checkLabels" for="comp">click to select</label>
+                            <input type="radio" id="selectCompact"  onclick="math2(this.value);" class="rad-label" name="carSelect" value="15" >
+
+        
+        </div>
+
+        <div class="item2"> 
+            <h2>Mid-Sized Car</h2><p>$20/Day</p>
+             <img src="midsize.jpg" alt="wag">
+            
+             
+                 <label class="checkLabels" for="mid">click to select</label> 
+                     <input type="radio" id="selectMid" class="rad-label"  name="carSelect" value="25"  onclick="math2(this.value);"> <br>
+                        
+                           
+        </div>  
+
+        <div class="item3">
+            <h2>Truck</h2><p>$40/Day</p>
+            <img src="truck.jpg" alt="wag">
+            
+            
+                 <label class="checkLabels" for="truck">click to select</label>
+                     <input type="radio"  id="selectTruck"  onclick="math2(this.value);" class="rad-label" name="carSelect" value="40">
+                      
+                           
+
+        </div>
+        
+        <div class="item4">            
+               <h2>Luxary vehicle</h2>  <p>$35/Day</p>
+           
+
+             <img src="lamtruck.jpg" alt="wag">
+                <label class="checkLabels" for="lux">click to select</label>
+                     <input type="radio" value="35" id="selectLux"  class="rad-label"  onclick="math2(this.value);" name="carSelect" >
+
+                             
+            </div>
+
+        <div class="item"> 
+
+            <label for="rentDays">Input Number of Days You Wish to Rent for</label><br><br>
+            <input type="number" min="1" max="30" id="rentDay" name="rentDay" onkeyup="math2(this.value);" onclick="math2(this.value);"><br><br>
+
+<label class="roofLab" for="compRoof">Add Child Seat (Free!)</label>
+<input type="checkbox" id="child" class="rad-label"  name="childSeat" onclick="math2(this.value);" value="Child Seat" >
+    <label class="gpsLab" for="midGps">Add GPS (+ $10)</label>
+        <input type="checkbox" id="gps" class="rad-label"  name="gps"  onclick="math2(this.value);" value="10">
+</div>
+
+<input type="button" value="Click to Select " onclick="math2()"> 
+<div class="outputInfo">
+    <span class="custInf" id="info"></span>
+</div>
+    
+
+</form>
+        
+
+<table class="formTable">
+     
+        <tr>
+            <td>
+                <span class="prout" id="price"></span>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

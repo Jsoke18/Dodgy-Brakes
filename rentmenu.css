@@ -1,0 +1,60 @@
+body{
+    color: rgb(255, 255, 255);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 40%;
+    grid-gap: 10px;
+    background-color: #c40000;
+    padding: 6px;
+    margin-right: 65%;
+    color: black;
+  
+  }
+
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px;
+  }
+
+  img{
+width:40%; 
+margin-right: 90%; 
+}
+
+label{
+font-size: small;
+}
+
+
+h2{
+    font-size: large;
+    margin-left: 4%;
+}
+p{
+    font-size: medium;
+    
+}
+
+
+
+.formTable{
+  margin-left: 101%;
+  position: relative;
+  top: 8px;
+  background: rgba(220,20,60,0.4);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(220,20,60,0.2);
+  font-size: 40px;
+  font-family: 'Kalam', cursive;
+}
+
+
+.rad-label{
+  color: crimson;
+}

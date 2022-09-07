@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    background-image: url(pt3bg.jpg) ;
+    color: azure;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.logo{
+    width: 30%;
+    background-color: #dc143c;
+    padding-right: 43%;
+    padding-left: 35.2%;
+
+}
+
+.inputItems{
+    margin-top: 3%;
+    margin-right: 40%;
+    margin-bottom: 4%;
+}
+
+.logoBackground{
+    background-color: crimson;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5%;
+}
+input{
+    color: rgb(0, 0, 0);
+}
+
+table, th, td {
+    margin-left: 60%;
+    border: 1px solid;
+    border-color: #dc143c;
+    color: rgb(255, 243, 243);
+margin-top: -90px; 
+font-family: 'Arvo', serif; }
+
+  .display{
+    width: 70%;
+    margin-left: 16%;
+    margin-top: -20%;
+    font-family: 'Arvo', serif;
+    
+
+  }
+
+  .infoHead{
+      color: rgb(255, 243, 243);
+  }
+
+
+  
+
+  .btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.dispRes{
+    margin-bottom: 10%;
+    background: rgba(220,20,60,0.4);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(220,20,60,0.2);
+    margin-left: 49%;
+    margin-right: 10.2%;
+   
+    left: 459px;
+    position: relative;
+
+}
+
+.checkLabels{
+    color: rgba(0, 0, 0, 0.5);
+}
